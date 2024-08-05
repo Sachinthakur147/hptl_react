@@ -1,0 +1,172 @@
+.patientlist{
+     background-color: #f0f2f5;
+     width: 80vw;
+   }
+   
+   .header {
+     background-color: #f8f9fa;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   
+   .logo h2 {
+     margin: 0;
+     color: #1a1a1a;
+   }
+   
+   .profile {
+     display: flex;
+     align-items: center;
+   }
+   
+   .profile-pic {
+     border-radius: 50%;
+     width: 60px;
+     height: 60px;
+     margin-right: 10px;
+   }
+   
+   .purchase-btn {
+     background-color: #ff9800;
+     color: #ffffff;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+   }
+   
+   .main-content {
+     display: flex;
+   }
+   
+   .sidebar {
+     background-color: #ffffff;
+     width: 200px;
+     padding: 20px;
+   }
+   
+   .sidebar ul {
+     list-style-type: none;
+     padding: 0;
+   }
+   
+   .sidebar li {
+     margin-bottom: 10px;
+   }
+   
+   .sidebar a {
+     color: #1a1a1a;
+     text-decoration: none;
+   }
+   
+   .content {
+     flex: 1;
+     padding: 20px;
+   }
+   
+   .content h2 {
+     color: #1a1a1a;
+   }
+   
+   .stats-cards {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+   }
+   
+   .cardpatient {
+     background-color: #ffffff;
+     padding: 20px;
+     width:25%;
+     border-radius: 5px;
+     text-align: center;
+   }
+   
+   .cardpatient h5 {
+     display: flex;
+     justify-content: flex-start;
+     margin: 0;
+     color: #1a1a1a;
+   }
+   
+   .cardpatient .count {
+     font-size: 16px;
+     font-weight: bold;
+     margin: 10px 0;
+     color: #656161;
+   }
+   .watch{
+     margin:10px 0px;
+   }
+   
+   .cardpatient .label {
+     color: #666666;
+     display: flex;
+   }
+   
+   .patient-table {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 5px;
+   }
+   
+   .table-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   
+   .search-bar input {
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+   }
+   
+   .filters {
+     display: flex;
+     align-items: center;
+   }
+   
+   .filters select,
+   .filters input {
+     margin-right: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+   }
+   
+   .filter-btn {
+     background-color: #f0f2f5;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+   }
+   
+   table {
+     width: 100%;
+     border-collapse: collapse;
+   }
+   
+   th,
+   td {
+     padding: 10px;
+     text-align: left;
+   }
+   
+   thead tr {
+     background-color: #f0f2f5;
+   }
+   
+   .pagination {
+     margin-top: 20px;
+     text-align: center;
+   }
+   
+   .load-more-btn {
+     background-color: #f0f2f5;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+   }

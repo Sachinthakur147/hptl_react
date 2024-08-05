@@ -1,0 +1,23 @@
+
+.appointment-wrap{
+
+     .bookAppointment{
+          background-color: #0087ba;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          font-size: 13px;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.3s;
+         &:hover {
+          color: whitesmoke;
+          background-color: #11b8e6d3;
+          transform: scale(1.1);
+        }
+         
+     }
+
+     
+
+     
+}
